@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Barlow:wght@400;700&family=Bellefair&family=Caveat:wght@400;500;600&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banana-heading{
+    background-color: #F2C94C;
+    margin: 0;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: caveat;
+    font-size: 3rem;
+   }
+
+   .container{
+    width: 40vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+    textarea{
+        width: 100%;
+        height: 20vh;
+        display: block;
+        padding: 10px 0 0 10px;
+        font-family: caveat;
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        background-color: #deb63e;
+        height: 45px;
+        width: 180px;
+        font-size: 1.2rem;
+        font-family: caveat;
+        margin: 20px 0 20px 0;
+        border: none;
+        border-radius: .5rem;
+    }
+
+    .output-heading h3{
+        margin-bottom: 20px;
+        font-family: caveat;
+        font-size: 1.7rem;
+    }
+   
+
+    #output{
+        height: 15vh;
+        width: 100%; 
+        border: 1px solid gray;
+    }
+
+    
+    .about{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-family: caveat;
+        font-size: 1.3rem;
+        position: fixed;
+        bottom: 0;
+        
+    }
+
+    .about-section{
+        width: 45vw;
+        margin: auto;
+        padding: 20px 0 30px 0;
+        word-spacing: .5rem;
+    }
+
+    .banana-heading div h3{
+        font-size: 2rem;
+    }

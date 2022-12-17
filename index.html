@@ -1,64 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana speak</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="banana-heading">
+      <h1>Bananaa Taalk</h1>
+    </div>
+    <section class="container">
+      <textarea
+        name=""
+        id="txt-Input"
+        placeholder="put your sentence in English here and we will convert it into banana"
+      ></textarea>
 
-    <style>
-       h1{
-        text-align: left;
-        margin: 0 0 0 200px;
-       }
+      <button class="btn" id="btn-translate">Translate to Banana</button>
 
-       .container{
-        margin: 0 0 0 200px;
-       }
+      <div class="output-heading">
+        <h3>Output will come here 👇🏻</h3>
+      </div>
+      <div id="output"></div>
+    </section>
 
-        textarea{
-            width: 50%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-           
-        }
-       
+    <footer class="banana-heading about">
+      <div class="about-section">
+        <h3 class="output-heading">about</h3>
+        <p>
+          Are you a fan of minions? Did you know that the gibberish they say is
+          an actual language. Use the translator to convert your text from
+          English to Minion speak or Banana language.
+        </p>
+      </div>
+    </footer>
 
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 50%;
-            margin: 1rem;
-            padding: 1rem;
-           
-        }
-
-        div{
-            margin: 1rem;
-        }
-        .btn{
-            margin: 1rem;
-        }
-
-    </style>
-</head>
-<body>
-
-<section class="container">
-    <h1>Talk banana</h1>
-
-    <textarea name="" id="txt-Input" placeholder="put your sentence in English here and we will convert it into banana"></textarea>
-
-    <button class="btn" id="btn-translate">Translate </button>
-
-    <div style="font-size: larger;">
-    Output will come here 👇🏻 </div>
-    <div id="output"></div>
-
-</section>
-
-    <script type="text/javascript" src="/script.js" ></script>
-</body>
+    <script type="text/javascript" src="/script.js"></script>
+  </body>
 </html>
